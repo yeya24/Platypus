@@ -5,7 +5,7 @@ go:
 before_install:
   - curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
   - sudo apt-get install -y upx nodejs
-  - sudo npm install --global yarn
+  - sudo npm install --global yarn webpack-cli
 addons:
   apt:
     update: true
